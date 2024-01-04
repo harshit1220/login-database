@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="forms">
+        <p class="tracking-in-expand">Login</p>
+            <form action="" >
+                <input type="text" name="username" id="un" placeholder="username">
+                <input type="password" name="password" id="pass" placeholder="password" >
+                <button type="button" value="LOGIN" onclick="login()">login</button>
+                <p class="message">Not registered?<a href="signup.html">Create an account </a></p>
+            </form>
+    </div>
+
+    <script src="login.js"></script>
+
+    <!-- <script>
+        let un="Harshit@123";
+        let pwd="Harsh@321";
+        function submitForm(){
+            let un2=document.getElementById("un").value;
+            let pwd2=document.getElementById("pwd").value;
+
+            if(un2==un && pwd==pwd2)
+            {
+                open("home.html")
+            }
+            else{
+                alert("Invalid credentials")
+            }
+        }
+        </script> -->
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url("https://wallpapercave.com/wp/wp9389250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.forms{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    opacity: 90%;
+    max-width: 260px;
+    margin: 200px auto 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2) green;
+}
+.forms p{
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+
+
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+.forms input{
+    outline: 0;
+    border-radius: 10px;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px;
+    margin: 0 0 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.forms input:hover{
+    background-color: #d3f8f9;
+    transition: all 1s ease 0s;
+}
+
+.forms input:focus{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+
+.forms button{
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 12px;
+    background: #1adbe5;
+    cursor:pointer;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+}
+
+.forms button:hover, .forms button:active, .forms button:focus{
+    background-color: #06C5CF;
+    transition: all 1s ease;
+    outline: none;
+}
+
+.forms .message{
+    margin: 15px 0 0;
+    color: #B3B3B3;
+}
+
+.forms .message a{
+    color: #06C5CF;
+    text-decoration: none;
+}
+
+.btn{
+  text-transform: uppercase;
+    border-radius: 10px;
+    padding: 12px;
+    background: #1adbe5;
+    cursor:pointer;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+}
