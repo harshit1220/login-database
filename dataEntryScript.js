@@ -13,6 +13,8 @@ function dataProcessing() {
     let formData = fetchData();
     if (currentRow == null) {
         storeData(formData);
+    } else {
+        updateData(formData);
     }
 }
 
@@ -84,11 +86,11 @@ function editData(btn) {
     education.value = currentRow.cells[4].innerHTML;
     passout.value = currentRow.cells[5].innerHTML;
 
-    currentRow = "newdata";
+    // currentRow = "newdata";
 }
 
 function updateData(formData) {
-    console.log(formData);
+    // console.log(formData);
 
     currentRow.cells[1].innerHTML = formData.username;
     currentRow.cells[2].innerHTML = formData.email;
